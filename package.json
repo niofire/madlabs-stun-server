@@ -1,0 +1,22 @@
+{
+  "name": "p2pong",
+  "version": "1.0.0",
+  "description": "A small p2p Pong clone.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^5.0.0",
+    "gulp-zip": "^4.1.0",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "websocket": "^1.0.25",
+    "http": "^0.0.0",
+    "webrtc-adapter": "^1.4.0"
+  }
+}
