@@ -1,8 +1,8 @@
 {
-  "name": "p2pong",
+  "name": "MadLabs-STUN-Server",
   "version": "1.0.0",
-  "description": "A small p2p Pong clone.",
-  "main": "app.js",
+  "description": "Small STUN server used for establishing P2P connection for MadLabs games",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

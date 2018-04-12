@@ -38,9 +38,3 @@ gulp.task('default', function () {
         .pipe(zip(options.packageName))
         .pipe(gulp.dest(options.packagePath));
 });
-
-gulp.task('unit-test', function(){
-	gulp
-	.src('test/boundingBoxTests.js', {read: false})
-	.pipe(mocha({reporter: 'nyan'}))
-})
